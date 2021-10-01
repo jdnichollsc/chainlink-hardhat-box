@@ -18,15 +18,15 @@
 ### Kovan
 
 - PriceConsumerV3: 0xad444eA0722A9cD0EfDe7992307441c40a64CF84
-  `npx hardhat read-price-feed --contract 0xad444eA0722A9cD0EfDe7992307441c40a64CF84 --network kovan`
+  - `npx hardhat read-price-feed --contract 0xad444eA0722A9cD0EfDe7992307441c40a64CF84 --network kovan`
 - APIConsumer: 0xB415304125585aCd1B9eBC6bec1a60845906A9f1
-  `npx hardhat request-data --contract 0xB415304125585aCd1B9eBC6bec1a60845906A9f1 --network kovan`
-  `npx hardhat read-data --contract 0xB415304125585aCd1B9eBC6bec1a60845906A9f1 --network kovan`
-  Verify **VOLUME24HOUR**: https://min-api.cryptocompare.com/data/pricemultifull?fsyms=ETH&tsyms=USD
+  - `npx hardhat request-data --contract 0xB415304125585aCd1B9eBC6bec1a60845906A9f1 --network kovan`
+  - `npx hardhat read-data --contract 0xB415304125585aCd1B9eBC6bec1a60845906A9f1 --network kovan`
+  - Verify **VOLUME24HOUR**: https://min-api.cryptocompare.com/data/pricemultifull?fsyms=ETH&tsyms=USD
 - RandomNumberConsumer: 0xbECBD20d12F1869F6aF8a967363b00AB2403C75e
-  `npx hardhat fund-link --contract 0xbECBD20d12F1869F6aF8a967363b00AB2403C75e --network kovan`
-  `npx hardhat request-random-number --contract 0xbECBD20d12F1869F6aF8a967363b00AB2403C75e --network kovan`
-  `npx hardhat read-random-number --contract 0xbECBD20d12F1869F6aF8a967363b00AB2403C75e --network kovan`
+  - `npx hardhat fund-link --contract 0xbECBD20d12F1869F6aF8a967363b00AB2403C75e --network kovan`
+  - `npx hardhat request-random-number --contract 0xbECBD20d12F1869F6aF8a967363b00AB2403C75e --network kovan`
+  - `npx hardhat read-random-number --contract 0xbECBD20d12F1869F6aF8a967363b00AB2403C75e --network kovan`
 
 ### Local Network
 
