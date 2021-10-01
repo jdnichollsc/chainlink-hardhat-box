@@ -15,6 +15,8 @@
 
 ## Deploys
 
+### Kovan
+
 - PriceConsumerV3: 0xad444eA0722A9cD0EfDe7992307441c40a64CF84
   `npx hardhat read-price-feed --contract 0xad444eA0722A9cD0EfDe7992307441c40a64CF84 --network kovan`
 - APIConsumer: 0xB415304125585aCd1B9eBC6bec1a60845906A9f1
@@ -25,6 +27,16 @@
   `npx hardhat fund-link --contract 0xbECBD20d12F1869F6aF8a967363b00AB2403C75e --network kovan`
   `npx hardhat request-random-number --contract 0xbECBD20d12F1869F6aF8a967363b00AB2403C75e --network kovan`
   `npx hardhat read-random-number --contract 0xbECBD20d12F1869F6aF8a967363b00AB2403C75e --network kovan`
+
+### Local Network
+
+- Local Network using Hardhat:
+  `npx hardhat node` - Start a Node using Hardhat with a forking Mainnet
+  Verify: Started HTTP and WebSocket JSON-RPC server at http://127.0.0.1:8545/
+  `npx hardhat deploy` - Deploy smart contracts to a local network with Ethereum
+  `npx hardhat block-number --network localhost` - Verify the fork, the block number is 0 in a local network
+  `npx hardhat read-price-feed --contract 0x4C4a2f8c81640e47606d3fd77B353E87Ba015584 --network localhost` - Debug
+  Verify value: https://data.chain.link/ethereum/mainnet/crypto-usd/eth-usd
 
 ## Requirements
 
